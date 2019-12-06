@@ -1,0 +1,327 @@
+[31-Oct-2019 09:44:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:44:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:45:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:45:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:45:09 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:45:09 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:46:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:46:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:46:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:47:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:47:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:47:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:48:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:48:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:49:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:49:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:50:03 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:50:03 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:51:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:51:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:52:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:52:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:52:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:53:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:53:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:54:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:54:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:54:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:55:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:55:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:55:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:56:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:56:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:56:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:57:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:57:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:58:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:58:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 09:59:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:59:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 09:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:00:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:00:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:01:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:01:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:02:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:02:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:02:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:02:14 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:02:14 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:02:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:03:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:03:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:04:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:04:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:04:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:05:03 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:05:03 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:05:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:06:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:06:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:07:04 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:07:04 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:07:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:08:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:08:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:09:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:09:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:10:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:10:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:28
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(88): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 28
+[31-Oct-2019 10:11:02 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 29
+[31-Oct-2019 10:12:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:12:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(13): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:13:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:13:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:14:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:14:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:15:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:15:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:15:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:16:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:16:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:16:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:17:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:17:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:17:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:18:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:18:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:19:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:19:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:20:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:20:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:21:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:21:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:22:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:22:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:22:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/incomc6/dasdenkich.de/archive-messages/index.php:27
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/archive-messages/index.php(14): CronForArchivingMessages->index()
+#1 /home/incomc6/dasdenkich.de/archive-messages/index.php(87): CronForArchivingMessages->__construct(NULL)
+#2 {main}
+  thrown in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 27
+[31-Oct-2019 10:23:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:23:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:24:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:24:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:25:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:25:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:26:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:26:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:27:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:27:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:28:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:28:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:29:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:29:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:30:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:30:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:31:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:31:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:32:02 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:32:02 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:33:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:33:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:34:01 UTC] PHP Warning:  include_once(/includes/connect.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3
+[31-Oct-2019 10:34:01 UTC] PHP Warning:  include_once(): Failed opening '/includes/connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/archive-messages/index.php on line 3

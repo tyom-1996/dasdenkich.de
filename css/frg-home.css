@@ -1,0 +1,70 @@
+    .section-title{
+        margin-top: 0;
+        margin-bottom: 73px;
+    }
+    
+    #main p{
+        line-height: 31px;
+    }
+    
+    #main video{
+        
+        position: absolute;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        z-index: 1;
+    }
+    
+    #main{
+        max-height: 700px;
+        position:relative;
+    }
+    
+    #main p > img{
+        float:left; 
+        margin: 7px 24px 7px 0; 
+        width: 407px;
+    }
+    
+    #main p > span{
+        margin-bottom: 18px;
+        display: block;
+    }
+    
+    .home-section p {
+        line-height: 140%;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    
+    #main3 div {
+        overflow: unset;
+    }
+    
+    #main5{
+        background: #ffffff;
+    }
+    
+    #main5 li{
+        line-height: 30px;
+        font-weight: 600;
+    }
+    
+    #main3 {
+        background: white;
+        color: #fff;
+    }
+    
+    /*#home header{*/
+    /*    display:none!important;*/
+    /*}*/
+    
+    #home #hero{
+        display:none!important;
+    }
+    
+    .section-title{
+        color:black;
+        text-align:left!important;
+    }

@@ -1,0 +1,112 @@
+[19-Nov-2019 07:52:38 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 07:52:57 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 07:53:37 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 08:02:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 08:58:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 10:59:41 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:02:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:03:13 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:05:34 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:80": Permission denied in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:80', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 80)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:06:41 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:06:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:08:16 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:20:12 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:80": Permission denied in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:80', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 80)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:20:16 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:80": Permission denied in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:80', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 80)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:24:30 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
+[19-Nov-2019 11:26:15 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:3000": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:3...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:3000', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 3000)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164

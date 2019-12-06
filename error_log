@@ -1,0 +1,13 @@
+[18-Nov-2019 14:35:42 UTC] PHP Warning:  require(/home/incomc6/vendor/autoload.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[18-Nov-2019 14:35:42 UTC] PHP Warning:  require(/home/incomc6/vendor/autoload.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[18-Nov-2019 14:35:42 UTC] PHP Fatal error:  require(): Failed opening required '/home/incomc6/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[19-Nov-2019 05:59:30 UTC] PHP Warning:  require(/home/incomc6/vendor/autoload.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[19-Nov-2019 05:59:30 UTC] PHP Warning:  require(/home/incomc6/vendor/autoload.php): failed to open stream: No such file or directory in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[19-Nov-2019 05:59:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/incomc6/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/incomc6/dasdenkich.de/chat-server.php on line 5
+[19-Nov-2019 07:52:15 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /home/incomc6/dasdenkich.de/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /home/incomc6/dasdenkich.de/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /home/incomc6/dasdenkich.de/bin/chat-server.php(15): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /home/incomc6/dasdenkich.de/vendor/react/socket/src/TcpServer.php on line 164
