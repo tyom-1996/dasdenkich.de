@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/connect.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/variables-functions.php";
 

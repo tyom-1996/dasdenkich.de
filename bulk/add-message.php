@@ -1,28 +1,25 @@
 <?php
 session_start();
+
 include_once $_SERVER['DOCUMENT_ROOT'] . "/bulk/view-functions/create-view-functions.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/language.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/account-balance.php";
 
 
-$thisPage = $CreateMsgViewFunctions->this_page;
-$prices   = $CreateMsgViewFunctions->getPrices();
-$title    = $lang['title'][$l];
+$thisPage     = $CreateMsgViewFunctions->this_page;
+$prices       = $CreateMsgViewFunctions->getPrices();
+$title        = $lang['title'][$l];
 
 $u160         = $prices['u160'];
 $u160markup   = $prices['u160markup'];
 $u160exchange = $prices['u160exchange'];
 
-
 $u320         = $prices['u320'];
 $u320markup   = $prices['u320markup'];
 $u320exchange = $prices['u320exchange'];
 
-
 $u160_price   = ($u160 * $u160markup * $u160exchange) * 500;
 $u320_price   = ($u320 * $u320markup * $u320exchange) * 500;
-
-
 
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
 
@@ -30,8 +27,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
 
 <!DOCTYPE html>
 <html lang="de">
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title><?php echo $lang['title'][$l]; ?></title>
     <?php  include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/header.php"; ?>
     <link rel="stylesheet" href="/css/bulk/add-message.css">
@@ -75,12 +72,10 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
            <?php  include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/right-header.php"; ?>
         
             <div class="wrap">
+
                <div class="msg-filter-block" >
                     <h1 class ='msg-filter-title'> Create New Message </h1>
-                    <!--<div class="user-creation-limit">-->
-                    <!--    You have already 2 messages-->
-                    <!--</div>-->
-                </div>
+               </div>
               
                 <div id="create-new-user" class="wrapper wrapper--w900">
                     <div class="card card-6">
@@ -109,7 +104,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
                                                 
                                                 <div class="include-str-name-for-msg" style="background: none;margin-bottom: 0;border: none;">
                                                     
-                                                    <input id="store_name_field" name="store_name_field" type="checkbox" <?php echo strlen($bulk_storename) > 0 ? 'checked' : ''  ?>  value="<?=$_SESSION['user-name']?>">
+                                                    <input id="store_name_field" name="store_name_field" type="checkbox"   value="<?=$_SESSION['user-name']?>">
                                                     <label style="margin-left: 13px;font-size: 14px;" for="store_name_field">
                                                         Include store name in the message
                                                     </label>

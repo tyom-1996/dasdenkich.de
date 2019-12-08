@@ -25,14 +25,9 @@
         $incharge_query = "INSERT INTO messages_incharge (store_id,storename,fromcellnumber,subuser_id,status,incharge_since,viewed) VALUES($storeId,'$storename','$storeNumber',$subuser_id,'1','$nowTime','1')";
     }
    
-    $mysqli->query($incharge_query);   
-   
-    if($mysqli->query($incharge_query)){
-        $result['status'] = 'ok' ;
-    }
-    else{
-        $result['status'] = 'error';
-    }
- 
-    echo json_encode($result);
+    $set_flag = $mysqli->query($incharge_query);
+    $answer = $set_flag ? true : false;
+
+    print $answer;
+    exit;
 ?>

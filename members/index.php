@@ -7,13 +7,11 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/constants.php";
 
 
 if(empty($_SESSION['auth']) || $_SESSION['auth'] != $authcode) {
-    ?>
-        <script>
-            window.location = '/anmelden.php?msg=notauth';
-        </script>
-    <?php
+
+    echo "<script> window.location = '/anmelden.php?msg=notauth'</script>";
 	exit();
 }
+
 
 if(isset($_GET['search']) && !empty($_GET['search'])){
          
@@ -80,13 +78,14 @@ function subUsersLists($fromcellnumber)
     global $mysqli,$EDIT_USER,$ADD_USER,$USER_ICON,$is_subuser;
         
     $store_id         = $_SESSION['user-id'];     
-    $archive_qwery    = "SELECT * FROM messages_contacts WHERE cellnumber = $fromcellnumber  AND storeid = $store_id";
-    $archive_contacts = $mysqli->query($archive_qwery)->fetch_assoc();
-    $is_archive       = $archive_contacts['is_archive'] == 1 ? true : false; 
+    $archive_query    = "SELECT * FROM messages_contacts WHERE cellnumber = $fromcellnumber  AND storeid = $store_id";
+    $archive_data     = $mysqli->query($archive_query);
+    $archive_contacts = $archive_data->fetch_assoc();
+    $is_archive       = $archive_contacts['is_archive'] == 1 ? true : false;
     
     $incharge_data    = $mysqli->query("SELECT * FROM messages_subusers WHERE  id IN ( SELECT subuser_id FROM messages_incharge WHERE fromcellnumber = $fromcellnumber AND status = '1' AND store_id = $store_id ) ")->fetch_assoc();
     $sub_name         = $incharge_data['sub_name'];
-    $sub_userID       = $_SESSION['sub-user-id'];
+    $sub_userID       = isset($_SESSION['sub-user-id']) ? $_SESSION['sub-user-id'] : 0;
     
     if(isset($incharge_data['logo']) && !empty($incharge_data['logo'])) 
     {
@@ -317,7 +316,6 @@ function defaultTextsContent()
         $texts_arr[] = $row;
     };
     
-    
     // Default text; 
     
     if(!$is_subuser) {
@@ -330,9 +328,8 @@ function defaultTextsContent()
         $options .="<option value='".$row['text']."'>".$row['text']."</option>";
     }
     
-    $content .= "<select class='add_default_text'>$options</select>";
-    
-    return $content;
+
+    return "<select class='add_default_text'>$options</select>";
 }
 
 
@@ -452,12 +449,12 @@ function assignedMessages($fromcellnumber)
 $archive_msgs          = [];
 
 // Sub user messages; 
-$active_message        = [];
-$subuser_mymessage     = [];
+$active_message        = ['incom' => [], 'outsending' => []];
+$subuser_mymessage     = ['incom' => [], 'outsending' => []];
 
 // Admin messages;
-$not_assigned_messages = [];
-$assigned_messages     = [];
+$not_assigned_messages = ['incom' => [], 'outsending' => []];
+$assigned_messages     = ['incom' => [], 'outsending' => []];
 
 
 
@@ -466,7 +463,7 @@ if( $num >=1 ) {
     
   
     while( $r = $result->fetch_assoc() ) {
-        
+
 	    $newQuery       = "select * from messages where store_id like '{$_SESSION['user-id']}' and fromcellnumber like '{$r['fromcellnumber']}' and sent is null and viewed is null and message_incoming != '' order by id desc";
 		$newQueryResult = $mysqli->query($newQuery);
 		$newQueryNum    = $newQueryResult->num_rows;
@@ -484,6 +481,9 @@ if( $num >=1 ) {
         if ($check_new_incharge->num_rows >= 1) {
             $r['send_date'] = $incharge['incharge_since'];
         }
+
+
+
         
         if ($r['is_archive'] == '1') {
             $archive_msgs[] = $r;
@@ -533,15 +533,24 @@ if( $num >=1 ) {
 }
 
 
+
+
 function message_array_merge($incom,$outsending)
 {
     return  array_merge(isset($incom) ? $incom : [], isset($outsending) ? $outsending : []);
 }
 
-usort($active_message['incom'],        function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); }); 
-usort($subuser_mymessage['incom'],     function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); }); 
-usort($not_assigned_messages['incom'], function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); }); 
-usort($assigned_messages['incom'],     function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); }); 
+//
+//echo "<pre>";
+//print_r($active_message);
+//print_r($subuser_mymessage);
+//print_r($not_assigned_messages);
+//print_r($assigned_messages);die;
+
+usort($active_message['incom'],        function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); });
+usort($subuser_mymessage['incom'],     function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); });
+usort($not_assigned_messages['incom'], function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); });
+usort($assigned_messages['incom'],     function($a, $b) { return strtotime($a['send_date']) < strtotime($b['send_date']); });
 
 $active_message        = message_array_merge($active_message['incom'],$active_message['outsending']);
 $subuser_mymessage     = message_array_merge($subuser_mymessage['incom'],$subuser_mymessage['outsending']);
@@ -627,7 +636,7 @@ if( $num >= 1 ) {
     		$incharge_query     = "SELECT * FROM messages_incharge WHERE store_id like '{$_SESSION['user-id']}' AND fromcellnumber like '{$row['fromcellnumber']}' AND status = '1' AND viewed = '0' order by id desc";
             $check_new_incharge = $mysqli->query($incharge_query);
 
-    	
+
     	    $recentSentMsg  = recentSentMsg($row['fromcellnumber']);
             $recentRcvMsg   = recentRcvMsg($row['fromcellnumber']); 
         
@@ -982,11 +991,10 @@ if(!empty($_GET['msg']))
 
 
 
-
+$title = $lang['title'][$l];
 $thisPage = "members";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/account-balance.php";
-$title = $lang['title'][$l];
 
 
 ?>
@@ -1271,8 +1279,6 @@ $title = $lang['title'][$l];
             data           = {fromcellnumber:fromcellnumber,subuser_id:subuser_id,action:action}
         }
         
-        console.log(data) 
-    
 
         $.ajax({
             url:  '/members/assign-message-subusers.php',
@@ -1357,6 +1363,7 @@ $title = $lang['title'][$l];
                 type: 'post',
                 data:{ storeId: storeId, storeNumber: sdNumber},
                 success: function( data, textStatus, jQxhr ){
+                    console.log(data)
                     if(data == true){
               
                         $this.parent().find("img").hide();

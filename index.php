@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/connect.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/variables-functions.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/short-url/index.php";
@@ -20,11 +20,12 @@ while($statement->fetch()) {
 	$id = $str_id;
 }
 
+
 if($numrows>=1) {
 	include_once $_SERVER['DOCUMENT_ROOT'] . "/store.php";
 } else {
     
-    if (strpos($thisURL, "frogswing.com") || strpos($thisURL, "dasdenkich.de")) {
+    if (strpos($thisURL, "frogswing.com") || strpos($thisURL, "dasdenkich.de") || strpos($thisURL, "dasdenkich.loc")) {
         include_once $_SERVER['DOCUMENT_ROOT'] . "/frg-home.php";
     } else {
         include_once $_SERVER['DOCUMENT_ROOT'] . "/home.php";

@@ -7,7 +7,7 @@ function getLogo()
     global $mysqli,$is_subuser;
     
     $store_id   = $_SESSION['user-id'];
-    $subuser_id = $_SESSION['sub-user-id'];
+    $subuser_id = isset($_SESSION['sub-user-id']) ? $_SESSION['sub-user-id'] : 0;
     $logo_query = $is_subuser  ? "SELECT * FROM messages_subusers  WHERE store_id = $store_id AND id = $subuser_id" : "SELECT * FROM messages_setup WHERE store_id = $store_id ";
   
     $msg_setup  = $mysqli->query($logo_query)->fetch_assoc();

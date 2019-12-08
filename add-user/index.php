@@ -62,8 +62,9 @@ $title = $lang['title'][$l];
 
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
 
+?>
 
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title><?php echo $lang['title'][$l]; ?></title>
@@ -173,7 +174,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php";
                                     <div class="name">Phone Number</div>
                                     <div class="value">
                                         <div class="input-group" style="position: relative;">
-                                            <input class="input--style-6" type="text" name="contact_cell" placeholder="Phone number" value="<?php echo $user['contact_cell']?>" style="padding-left: 33px;">
+                                            <input class="input--style-6" type="text" name="contact_cell" placeholder="Phone number"  style="padding-left: 33px;">
                                             <div class="country_code">+1</div>
                                         </div>
                                     </div>

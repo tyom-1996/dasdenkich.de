@@ -1,19 +1,23 @@
 <?php
+
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/connect.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/variables-functions.php";
 include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/language.php";
 
+
 $message = '';
 
 if(!empty($_GET['msg'])) {
-	$message = '<div class="'.$errors[$l][$_GET['msg']][0].'">'
+	$message = '<div class="'.isset($errors) ? $errors[$l][$_GET['msg']][0] : ''.'">'
 				.$errors[$l][$_GET['msg']][1]
 				.'</div>';
 }
 
-
 $thisPage = "home";
+
 ?>
+
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -25,29 +29,16 @@ $thisPage = "home";
 
 
 <body  id="<?php echo $thisPage; ?>">
+
 	<?php include_once $_SERVER['DOCUMENT_ROOT'] . "/includes/banner.php"; ?>
 
-
-	<!--<div id="hero">-->
-	<!--	<div class="hero-content">-->
-
-	<!--		<h1><?php echo $lang['headline1'][$l]; ?></h1>-->
-	<!--		<img src="/images/phones-<?php echo $l; ?>.png" class="phones">-->
-	<!--	</div>-->
-
-	<!--		<video autoplay preload muted loop>-->
-	<!--		 <source src="/video/background2.mp4" type="video/mp4">-->
-	<!--		</video>-->
-
-	<!--</div>-->
 	<section id="main" class="home-section">
 	    
 	    <video autoplay="" preload="" muted="" loop="">
 			 <source src="/video/background2.mp4" type="video/mp4">
 			</video>
 		<div style="position: relative;z-index: 2;margin-top: 137px;color: white;">
-		    
-		    
+
 		    <h2 style="color: white;" class="section-title">Text Messaging is how People Want to Communicate With You.</h2>
            
             <p>
@@ -146,16 +137,17 @@ $thisPage = "home";
 		    <p >
 		        Your existing POS system could be seamlessly integrated with your new texting portal, making it even easier to communicate with your customers. We would be happy to talk to your software provider!
 		    </p>
-	
 		</div>
 	</section>
 	
 	<div id="mitmachen" class="home-section">
 		<div>
-			<h2><?php echo $lang['home-mitmachen'][$l]; ?></h2>
+			<h2>
+                <?php echo $lang['home-mitmachen'][$l]; ?>
+            </h2>
 			<form method="post" action="/includes/send-contact.php">
 				<input type="hidden" name="site" value="<?php echo $lang['domain'][$l]; ?>">
-			<?php echo $message; ?>
+			    <?php echo $message; ?>
 				<input type="text" name="subject" value="" class="gone">
 				<div>
 					<label>name</label>

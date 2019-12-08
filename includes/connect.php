@@ -1,8 +1,11 @@
 <?php
 //Open a new connection to the MySQL server
 $host = 'localhost';
-$username = 'incomc6_angie';
-$password = 'angiePassword';
+//$username = 'incomc6_angie';
+//$password = 'angiePassword';
+
+$username = 'root';
+$password = '';
 $database_name = 'incomc6_dasdenkich';
 
 $mysqli = new mysqli($host, $username, $password, $database_name);
